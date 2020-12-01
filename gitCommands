@@ -1,0 +1,38 @@
+Git Commands :
+
+1. git init :- turn a directory into empty git repository.
+
+2. git add :- Add all the files to stagging area. All the modified files are not considered for commit.
+
+3. git commit :- Records the changes done in the local repository. Each commit has a unique id.
+
+4. git status :- Returns the current state of the repository.
+
+5. git config :- --global user.name "rohit" (for global)
+
+6. 	git branch :-  git branch give all the branch.  
+	git merge :-	merge the changes to the master branch.
+	git checkout :- go to particular branch.
+	git checkout -b "name" for creating and switching to a branch.
+	git branch -d "name" for deletion.
+	
+7. git remote add origin <ssh-part> to connect to remote repository.
+
+8. git clone :- to copy and download remote repository to local.
+
+9. git pull origin master :- git pull to get the changes from remote repository.
+
+10. git push  :- use to put local changes in repository to remote repository.
+
+11. git stash :- to save changes made when they are not in a state to commit to repository.
+
+12. git log :- It shows the chronological commit history.
+
+	git log -before <date>
+	git log --author="<name>"
+	
+13. git revert :- git log --oneline to get the hash then use it in git revert
+					git revert <hash> from above.
+					git revert HEAD --> to revert last commit.
+					
+14. git rebase :- it will move current branches changes to master branch.
